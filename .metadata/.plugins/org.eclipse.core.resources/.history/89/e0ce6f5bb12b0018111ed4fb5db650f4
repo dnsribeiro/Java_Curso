@@ -1,0 +1,34 @@
+package Exercicio412;
+
+//Exercício 01/02...
+public class Conta {
+
+	private String nomeTitular;
+	private int numero;
+	private String agencia;
+	private double saldo;
+	private String dataAbertura;
+
+	public void sacar(double _valor) {
+		this.saldo -= _valor;
+	}
+
+	public void depositar(double _valor) {
+		this.saldo += _valor;
+	}
+
+	public double calcularRendimento() {
+		return this.saldo * 0.1;
+	}
+	
+	public String recuperaDadosParaImpressao(){
+		String info;
+		
+		info  = "Nome:    " + this.nomeTitular + "\n";
+		info += "Número:  " + this.numero + "\n";
+		info += "Agência: " + this.agencia + "\n";
+		
+		
+		return info;
+	}
+}

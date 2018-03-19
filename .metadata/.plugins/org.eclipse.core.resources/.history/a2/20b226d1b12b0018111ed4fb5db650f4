@@ -1,0 +1,16 @@
+package Exercicio412;
+
+public class Teste {
+	public static void main (String[] args)
+	{
+		System.out.println("Classe Conta...");
+		Conta c = new Conta();
+		
+		c.setNomeTitular("Dennis Ribeiro");
+		c.setNumero(12345);
+		c.setAgencia("12345-6");
+		c.setDataAbertura("18/12/1990");
+		c.setSaldo(1500);
+		
+	}
+}

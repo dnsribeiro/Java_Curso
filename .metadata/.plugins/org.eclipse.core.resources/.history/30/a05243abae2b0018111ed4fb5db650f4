@@ -1,0 +1,18 @@
+package Exercicio412;
+
+public class Conta {
+
+	private String nomeTitular;
+	private int numero;
+	private String agencia;
+	private double saldo;
+	private String dataAbertura;
+
+	public void Sacar() {
+		
+	}
+	
+	public void Depositar() {
+		
+	}
+}

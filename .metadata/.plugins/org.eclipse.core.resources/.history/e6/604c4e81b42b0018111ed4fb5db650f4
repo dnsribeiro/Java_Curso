@@ -1,0 +1,16 @@
+package Exercicio412;
+
+public class Fibonacci {
+	
+	public int calcular (int _valor) {
+		if (_valor == 1)
+			return (1);
+		else {
+			return _valor * calcular(_valor - 1);
+		}
+	}
+	
+	//Exercício 03 (Desafio)...
+	
+
+}

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/PrimeiroApp/src/BalancoTrimestral.java"/>
+<listEntry value="/PrimeiroApp/src/Exercicio214/BalancoTrimestral.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="BalancoTrimestral"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Exercicio214.BalancoTrimestral"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="PrimeiroApp"/>
 </launchConfiguration>
