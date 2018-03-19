@@ -1,0 +1,46 @@
+
+public class Exercicio313 {
+
+	//Exercício 3.13...
+	public static void main(String[] args) {		
+		
+		//Exercício 01...
+		for (int i=150; i<=300; i++)
+			System.out.println(i);
+		
+		//Exercício 02...
+		int soma = 0;
+		for (int i=150; i<=300; i++)
+			soma += i;
+		System.out.println(soma);
+		
+		//Exercício 03...
+		for (int i=1; i<=100; i++)
+		{
+			if (i % 3 == 0)
+			System.out.println(i);
+		}
+		
+		//Exercício 04...
+		int fatorial = 1;
+		for (int i=1; i<=10; i++)
+		{							
+			fatorial *= i;			
+			System.out.println(fatorial);
+		}
+		
+		//Exercício 05...
+		long fatorial2 = 1;
+		for (int i=1; i<=40; i++)
+		{							
+			fatorial2 *= i;			
+			System.out.println(fatorial2);
+		}
+		
+		//Exercício 06...
+		int iNum1 = 0;
+		int iNum2 = 1;
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+
+public class Exercicio313 {
+
+	//Exercício 3.13...
+	public static void main(String[] args) {		
+		
+		//Exercício 01...
+		for (int i=150; i<=300; i++)
+			System.out.println(i);
+		
+		//Exercício 02...
+		int soma = 0;
+		for (int i=150; i<=300; i++)
+			soma += i;
+		System.out.println(soma);
+		
+		//Exercício 03...
+		for (int i=150; i<=300; i++)
+			System.out.println(i);
+	}
+
+}

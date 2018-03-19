@@ -1,0 +1,18 @@
+
+public class BalancoTrimestral {
+
+	//Exercício 3.3...
+	public static void main(String[] args) {
+		//Exercício 01...
+		int gastosJaneiro = 15000;
+		int gastosFevereiro = 23000;
+		int gastosMarco = 17000;	
+		int gastosTrimestre = gastosJaneiro + gastosFevereiro + gastosMarco;
+		System.out.println(gastosTrimestre);
+		
+		//Exercício 02...
+		double mediaMensal = gastosTrimestre / 3;
+		System.out.println("Valor da média mensal: " + mediaMensal);
+	}
+
+}

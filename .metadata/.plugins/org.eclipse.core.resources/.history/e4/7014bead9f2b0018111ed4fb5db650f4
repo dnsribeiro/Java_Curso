@@ -1,0 +1,13 @@
+
+public class BalancoTrimestral {
+
+	//Exercício 3.3...
+	public static void main(String[] args) {
+		//Exercício 01...
+		int gastosJaneiro = 15000;
+		int gastosFevereiro = 23000;
+		int gastosMarco = 17000;
+		
+	}
+
+}
