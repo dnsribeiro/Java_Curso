@@ -1,0 +1,12 @@
+package Exercicio412;
+
+public class Pessoa {
+
+	private String nome;
+	private int idade;
+
+	public void fazAniversario() {
+		this.idade++;
+	}
+
+}

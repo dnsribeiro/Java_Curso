@@ -1,0 +1,8 @@
+package Exercicio412;
+
+public class Porta {
+	private boolean aberta;
+	private String cor;
+	private double dimensaoX, dimensaoY, dimensaoZ;
+	
+}

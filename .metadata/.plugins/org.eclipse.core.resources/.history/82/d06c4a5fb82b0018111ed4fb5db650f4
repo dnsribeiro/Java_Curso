@@ -1,0 +1,9 @@
+package Exercicio412;
+
+public class Casa {
+
+	private String cor;
+	Porta porta1, porta2, porta3;
+	
+	
+}

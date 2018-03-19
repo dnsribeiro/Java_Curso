@@ -1,0 +1,26 @@
+package Exercicio412;
+
+public class Porta {
+	private boolean aberta;
+	private String cor;
+	private double dimensaoX, dimensaoY, dimensaoZ;
+
+	public void abre() {
+		this.aberta = true;
+	}
+
+	public void fecha() {
+		this.aberta = false;
+	}
+
+	public void pinta(String _cor) {
+		this.cor = _cor;
+	}
+
+	public boolean estaAberta() {
+		if (this.aberta)
+			return true;
+		else
+			return false;
+	}
+}

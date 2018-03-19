@@ -1,0 +1,17 @@
+package Exercicio412;
+
+public class Testes2 {
+
+	public static void main(String[] args) {	
+		Pessoa p1 = new Pessoa();
+		p1.setNome("Dennis Ribeiro");
+		p1.setIdade(15);
+		
+		p1.fazAniversario();
+		p1.fazAniversario();
+		p1.fazAniversario();
+		
+		System.out.println("Nome: " + p1.getNome() + "\nIdade: " + p1.getIdade());		
+	}
+
+}
