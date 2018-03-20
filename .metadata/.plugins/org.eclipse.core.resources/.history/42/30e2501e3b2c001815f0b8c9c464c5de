@@ -1,0 +1,15 @@
+package Exercicio412;
+
+public class PessoaFisica {
+
+	public PessoaFisica(String _cpf) {
+		if (PessoaFisica.validarCPF(_cpf))
+			System.out.println("CPF inválido");
+	}
+
+	public static boolean validarCPF(String _cpf) {
+		if (_cpf.equals(""))
+			return false;
+		return true;
+	}
+}

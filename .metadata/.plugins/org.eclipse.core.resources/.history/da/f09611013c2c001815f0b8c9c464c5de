@@ -1,0 +1,12 @@
+package Exercicio412;
+
+public class SingleTon {
+
+	private SingleTon() {
+
+	}
+
+	public static SingleTon getSingleTon() {
+		
+	}
+}

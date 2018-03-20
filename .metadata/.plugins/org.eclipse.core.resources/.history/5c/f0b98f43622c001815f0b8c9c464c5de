@@ -1,0 +1,26 @@
+package Exercicio917;
+
+import javax.management.RuntimeErrorException;
+
+public class Excecao {
+
+	private double valor;
+	
+	public Excecao() {
+		this.valor = 0;
+	}
+	
+	public void setValor1(double _valor) {
+		try {
+			throw new RuntimeErrorException(0);
+		}
+		catch(Exception e) {
+			System.out.println("Erro divisão por zero");
+		}		
+	}
+	
+	public void setValor2(double _valor) throws ArithmeticException {
+		this.valor = _valor / 0;
+	}
+	
+}

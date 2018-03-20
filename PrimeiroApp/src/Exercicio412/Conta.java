@@ -10,10 +10,24 @@ public class Conta {
 	// Exercício 06...
 	// private String dataAbertura;
 	private Data dataAbertura;
+	
+	private static int identificador = 0;
 
-	//
 	public Conta() {
 		dataAbertura = new Data();
+		Conta.identificador++;
+	}
+	
+	//Exercício 04...
+	public Conta(String _titular) {
+		dataAbertura = new Data();
+		this.nomeTitular = _titular;
+		Conta.identificador++;
+	}
+	
+	public static int getIdentificador()
+	{
+		return Conta.identificador;
 	}
 
 	public String getNomeTitular() {

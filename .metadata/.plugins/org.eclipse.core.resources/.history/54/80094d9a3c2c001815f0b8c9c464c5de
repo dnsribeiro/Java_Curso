@@ -1,0 +1,15 @@
+package Exercicio412;
+
+public class SingleTon2 {
+
+	private static SingleTon2 sg2;
+	
+	private SingleTon2() {
+		
+	}
+	
+	public static SingleTon2 getSingleTon2()
+	{
+		
+	}
+}

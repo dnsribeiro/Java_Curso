@@ -1,0 +1,12 @@
+package Exercicio917;
+
+public class Conta {
+
+	private int numero;
+	private String agencia;
+
+	public Conta() {
+
+	}
+
+}

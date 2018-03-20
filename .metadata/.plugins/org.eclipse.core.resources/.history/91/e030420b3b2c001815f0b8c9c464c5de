@@ -1,0 +1,14 @@
+package Exercicio412;
+
+public class PessoaFisica {
+
+	public PessoaFisica(String _cpf) {
+		if (this.validarCPF())
+			return null;
+	}
+
+	public boolean validarCPF() {
+		
+		return true;
+	}
+}

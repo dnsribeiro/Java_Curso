@@ -1,0 +1,15 @@
+package Desafio138;
+
+public class MinhaString implements Comparable<MinhaString> {
+
+	
+	public MinhaString() {
+		
+	}
+	
+	public int compareTo(MinhaString _s) {
+		return 0;
+	}
+	
+	
+}

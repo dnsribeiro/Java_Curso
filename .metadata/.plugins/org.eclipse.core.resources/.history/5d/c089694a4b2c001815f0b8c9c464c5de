@@ -1,0 +1,10 @@
+package Exercicio917;
+
+public class ContaPoupanca extends Conta {
+
+	private int numPoupanca;
+	
+	public ContaPoupanca() {
+		super();
+	}
+}

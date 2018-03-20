@@ -1,0 +1,8 @@
+package Exercicio412;
+
+public class PessoaFisica {
+
+	public PessoaFisica(String _cpf) {
+
+	}
+}

@@ -1,0 +1,16 @@
+package Exercicio412;
+
+public final class SingleTon {
+
+	private static final SingleTon sg = null;
+
+	private SingleTon() {
+
+	}
+
+	public static SingleTon getSingleTon() {
+		if (SingleTon.sg == null)
+			SingleTon.sg = new SingleTon();
+		return sg;
+	}
+}

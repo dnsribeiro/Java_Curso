@@ -1,0 +1,19 @@
+package Desafio138;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class TesteMinhaString {
+
+	public static void main(String[] args) {
+		
+		List<MinhaString> vetStr = new ArrayList<>();
+		
+		MinhaString s1 = new MinhaString("Primeiro");
+		MinhaString s2 = new MinhaString("Segundo");
+		MinhaString s3 = new MinhaString("Terceiro");
+		
+		vetStr.add()
+		
+	}
+}

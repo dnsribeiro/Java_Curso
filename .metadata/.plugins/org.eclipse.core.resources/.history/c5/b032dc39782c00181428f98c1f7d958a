@@ -1,0 +1,19 @@
+package Desafio138;
+
+public class MinhaString implements Comparable<MinhaString> {
+
+	private static int numeroString = 0;
+	
+	private String valor;
+	private int numero;
+	
+	public MinhaString() {
+		MinhaString.numeroString++;
+	}
+	
+	public int compareTo(MinhaString _s) {
+		return 0;
+	}
+	
+	
+}

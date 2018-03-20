@@ -1,0 +1,25 @@
+package Exercicio917;
+
+public class ContaCorrente extends Conta {
+
+	private int numCorrente;
+
+	public ContaCorrente() {
+		super();
+		this.numCorrente = 0;
+	}
+
+	public int getNumCorrente() {
+		return numCorrente;
+	}
+
+	public void setNumCorrente(int numCorrente) {
+		this.numCorrente = numCorrente;
+	}
+	
+	@Override
+	public String getTipo() {
+		return super.getTipo() + "Corrente";
+	}
+
+}

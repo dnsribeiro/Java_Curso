@@ -1,0 +1,9 @@
+package Exercicio412;
+
+public class SingleTon2 {
+
+	private static SingleTon2 sg2;
+	
+	
+	
+}

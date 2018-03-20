@@ -1,0 +1,10 @@
+package Exercicio917;
+
+public class ContaCorrente extends Conta {
+
+	private int numCorrente;
+
+	public ContaCorrente() {
+		this.
+	}
+}

@@ -1,0 +1,19 @@
+package Exercicio917;
+
+public class Excecao {
+
+	private double valor;
+	
+	public Excecao() {
+		
+	}
+	
+	public double setValor(double _valor) {
+		try {
+			this.valor = _valor / 0;
+		}
+		catch(Exception e) {
+			System.out.println("Erro divisão por zero");
+		}
+	}
+}

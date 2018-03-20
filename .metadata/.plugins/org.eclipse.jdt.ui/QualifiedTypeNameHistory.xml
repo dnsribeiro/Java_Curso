@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="Exercicio412.Conta"/>
 <fullyQualifiedTypeName name="Exercicio412.Data"/>
 <fullyQualifiedTypeName name="Exercicio412.Fibonacci"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="Exercicio412.Pessoa"/>
 <fullyQualifiedTypeName name="Exercicio412.Casa"/>
 <fullyQualifiedTypeName name="Exercicio412.Porta"/>
+<fullyQualifiedTypeName name="Exercicio412.Conta"/>
+<fullyQualifiedTypeName name="Exercicio412.SingleTon"/>
+<fullyQualifiedTypeName name="Exercicio412.SingleTon2"/>
+<fullyQualifiedTypeName name="Exercicio917.Conta"/>
+<fullyQualifiedTypeName name="Exercicio917.ContaPoupanca"/>
+<fullyQualifiedTypeName name="Exercicio917.ContaCorrente"/>
+<fullyQualifiedTypeName name="Exercicio917.IR"/>
+<fullyQualifiedTypeName name="Exercicio917.Tributavel"/>
+<fullyQualifiedTypeName name="Exercicio917.Excecao"/>
+<fullyQualifiedTypeName name="javax.management.RuntimeErrorException"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
 </qualifiedTypeNameHistroy>

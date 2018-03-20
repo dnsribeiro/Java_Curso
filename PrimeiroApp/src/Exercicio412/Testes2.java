@@ -28,7 +28,7 @@ public class Testes2 {
 		c1.getPorta1().fecha();
 		c1.getPorta2().abre();
 		c1.getPorta3().abre();
-		System.out.println(c1.quantasPortasEstaoAbertas());
+		System.out.println(c1.quantasPortasEstaoAbertas());				
 	}
 
 }

@@ -1,0 +1,12 @@
+package Desafio138;
+
+public class ConversaoStr {
+
+	public static void main(String[] args) {
+		
+		String s1 = "4587";
+		
+		
+	}
+	
+}

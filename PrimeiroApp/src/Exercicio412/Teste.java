@@ -35,5 +35,8 @@ public class Teste {
 			System.out.println("Iguais...");
 		else
 			System.out.println("Diferentes...");
+
+		Conta c3 = new Conta();
+		System.out.println(Conta.getIdentificador());
 	}
 }

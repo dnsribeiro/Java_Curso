@@ -1,0 +1,13 @@
+package Exercicio917;
+
+public class Teste3 {
+
+	public static void main(String[] args) {
+		ContaCorrente c1 = new ContaCorrente();
+		ContaPoupanca c2 = new ContaPoupanca();
+
+		c1.setAgencia(1);
+		c1.setNumero(5);
+	}
+
+}

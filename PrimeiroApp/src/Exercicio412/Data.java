@@ -11,6 +11,9 @@ public class Data {
 	}
 
 	public void setDia(int dia) {
+		//Exercício 06...
+		if (this.mes == 2 && dia >= 29)
+			return;
 		this.dia = dia;
 	}
 
@@ -19,6 +22,9 @@ public class Data {
 	}
 
 	public void setMes(int mes) {
+		//Exercício 06...
+		if (mes == 2 && this.dia >= 29)
+			return;
 		this.mes = mes;
 	}
 

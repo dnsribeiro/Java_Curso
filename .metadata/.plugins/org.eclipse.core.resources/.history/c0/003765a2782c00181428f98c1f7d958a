@@ -1,0 +1,12 @@
+package Desafio138;
+
+import java.util.ArrayList;
+
+public class TesteMinhaString {
+
+	public static void main(String[] args) {
+		List<MinhaString> vetStr = new ArrayList<>();
+		
+		
+	}
+}
