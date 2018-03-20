@@ -1,0 +1,10 @@
+package Desafio138;
+
+import java.util.HashMap;
+
+public class TesteMap {
+
+	public static void main(String[] args) {
+		Map<String, String> meuMapa = new HashMap<>();
+	}
+}

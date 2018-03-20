@@ -1,0 +1,13 @@
+package Exercicios1515;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class Exercicio01 {
+	public static void main(String[] args) {
+		System.out.println("Iniciando...");
+		Collection<Integer> teste = new ArrayList<>();
+		
+		
+	}
+}

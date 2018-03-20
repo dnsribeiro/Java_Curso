@@ -1,0 +1,17 @@
+package Desafio138;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class TesteMap {
+
+	public static void main(String[] args) {
+		Map<String, String> meuMapa = new HashMap<>();
+		
+		meuMapa.put("String 1", "Valor ABC");
+		meuMapa.put("String 2", "Valor DEF");
+		meuMapa.put("String 3", "Valor GHI");
+		
+		System.out.println(meuMapa.get("String 2"));
+	}
+}
