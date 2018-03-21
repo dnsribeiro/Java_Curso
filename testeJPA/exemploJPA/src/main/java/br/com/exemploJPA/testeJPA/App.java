@@ -45,6 +45,7 @@ public class App {
 		oPessoa.setIdade(45);
 		em.persist(oPessoa);
 
+		//Fecha transação...
 		em.getTransaction().commit();
 
 		// Mostrando registros...

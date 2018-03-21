@@ -5,16 +5,17 @@
 
 	<session-factory>
 
-		<property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
-		<property name="hibernate.connection.url">jdbc:oracle:thin:@localhost:1521:XE</property>
-		<property name="hibernate.connection.username">pleno14</property>
-		<property name="hibernate.connection.password">pleno14</property>
+		<property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+		<property name="hibernate.connection.url">jdbc:sqlserver://localhost:1433;DatabaseName=JavaTeste</property>
+		<property name="hibernate.connection.username">teste</property>
+		<property name="hibernate.connection.password">teste</property>
 		<property name="hibernate.show_sql">true</property>
 		<property name="hibernate.format_sql">false</property>
-		<property name="hibernate.hbm2ddl.auto">update</property>
-		<property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
+		<property name="hibernate.hbm2ddl.auto">create</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
 		
 		<mapping class="br.com.exemploHibernate.model.Teste"/>
+		<mapping class="br.com.exemploHibernate.model.Pessoa"/>
 
 	</session-factory>
 
